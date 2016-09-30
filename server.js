@@ -7,7 +7,7 @@ var http = require('http');
 var server = http.createServer(function (request, response){
     response.writeHead(200,{"Content-Type": "text/plain"});
     response.write(request.url + "\n");
-    response.end("Hello World Update 1. And update 2. And update 3\n");
+    response.end("Hello World Update 1. And update 2. And update 3. One more push credentials test.\n");
 });
 
 // Listen on port 8000. IP defaults to 127.0.0.1
