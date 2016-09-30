@@ -2,6 +2,7 @@ console.log("Starting up");
 
 // Load the http module to create an http server
 var http = require('http');
+var express = require("express");
 
 // Configure our HTTP Server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response){
