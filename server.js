@@ -9,7 +9,7 @@ var app = express();
 
 var port = process.env.PORT || 8000;
 
-var controllers = require("controllers");
+var controllers = require("./controllers");
 controllers.init(app);
 
 app.get('/', function(req, res){
